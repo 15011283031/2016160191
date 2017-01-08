@@ -20,7 +20,7 @@ $word_t2=get_option('mytheme_word_t2');
  
    <a target="_blank" href="<?php echo get_option('mytheme_footer_box2_link') ?>" class="about_pic"><img src="<?php echo $footer_box2_pic;?>"  <?php echo 'alt="'.get_option('mytheme_footer_box2_title').'"'; ?>/></a>
    
-   <p class="about_text"><?php if(get_option('mytheme_footer_box2_text')){echo get_option('mytheme_footer_box2_text');}else{echo 'WEB主题公园是秉自长沙特锐文化传播有限公司，我们的团队倾力打造的一个以网页模板，网页主题为核心的商务平台。我们有着经验丰富，而且成熟的团队，我们专注于开发视觉精美，功能完善的原创中文网站主题和网站模板。';} ?></p>
+   <p class="about_text"><?php if(get_option('mytheme_footer_box2_text')){echo get_option('mytheme_footer_box2_text');}else{echo '本站点用于个人示例分享及展示，站点本身不对内容负责，如有疑问，请联系站主Peterchenhra@hotmail.com。';} ?></p>
    
   </div>
 
@@ -69,7 +69,7 @@ $word_t2=get_option('mytheme_word_t2');
 			 for($i=0;$i<count($contact_text);$i++) {
 				 echo'<p class="contact_text_p">'.$contact_text[$i].'</p>';
 				 
-				 } }else{echo '<p class="contact_text_p">联系电话:0731 -8578 ****  / 0731-8578 **** </p><p class="contact_text_p">联系邮箱：themepark.com.cn</p><p class="contact_text_p"> 联系邮箱：湖南省长沙市雨花区芙蓉中路296号交通大厦A座2902号</p>';} 
+				 } }else{echo '<p class="contact_text_p">联系电话:**** -**** ****  / ****-**** **** </p><p class="contact_text_p">联系邮箱：Peterchenhra@hotmail.com</p><p class="contact_text_p"> 联系邮箱：暂无邮箱</p>';} 
 	 
 	 ?>
    
@@ -80,9 +80,9 @@ $word_t2=get_option('mytheme_word_t2');
       
      
      <p> <?php  if($word_t2!=""){echo $word_t2;}else{echo '版权所有';}  ?> &copy;<?php echo date("Y"); echo " "; bloginfo('name'); 
-		   if($icp_b !=="") {echo ' |   <a rel="nofollow" target="_blank" href="http://www.miitbeian.gov.cn/">'.$icp_b.'</a>'; };
-		   if($themepark =="") {echo ' |  技术支持： <a target="_blank" href="http://www.themepark.com.cn">WEB主题公园</a>'; }
-		   else if($themepark =="en") {echo ' |  Theme by ： <a target="_blank" href="http://www.themepark.com.cn">themepark</a>'; }
+		   if($icp_b !=="") {echo ' |   <a rel="nofollow" target="_blank" href="http://www.hr-a.info/">'.$icp_b.'</a>'; };
+		   if($themepark =="") {echo ' |  技术支持： <a target="_blank" href="http://www.hr-a.info">程序主题站</a>'; }
+		   else if($themepark =="en") {echo ' |  Theme by ： <a target="_blank" href="http://www.hr-a.info">themepark</a>'; }
 		    echo ' |  '.stripslashes(get_option('mytheme_analytics')); ?> </p>
      </div>
   
@@ -92,7 +92,7 @@ $word_t2=get_option('mytheme_word_t2');
  
   <div class="footer_in">
  
-   <p><?php if(get_option('mytheme_footer_sm_text')){echo get_option('mytheme_footer_sm_text');}else{ echo '特别申明：本站所有演示主题上的演示图片均来源于网络，并仅用户主题的演示功能，如果侵犯到您的权利，请联系我们删除，本站演示中所有数据均为虚构，请勿当成实际价格、资料使用。';}; ?></p>
+   <p><?php if(get_option('mytheme_footer_sm_text')){echo get_option('mytheme_footer_sm_text');}else{ echo '特别申明：本站信息均来源于网络，如果侵犯到您的权利，请联系我们删除，本站演示中所有数据均为虚构，请勿当成实际价格、资料使用。';}; ?></p>
    <?php ob_start(); wp_nav_menu(array( 'theme_location'  => "link-menu2" ,'menu_class'=> 'footer_bottom_link','container' => false  ) ); ?>
    </div>
 </div>
