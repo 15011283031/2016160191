@@ -5,7 +5,7 @@
    <?php $left_right =get_option('mytheme_left_right'); 
    if(get_post_meta($id, 'views', true) ){$getPostViews=get_post_meta($id, 'views', true); }else{$getPostViews='0';}
    ?>
-<div id="content" class="singlep">
+<div id="content" class="singlep">1111
 <div class="left_mian" id="per27" <?php if($left_right){echo 'style="float: right;"';} ?> ><?php dynamic_sidebar('sidebar-widgets4');?></div>
 <div class="right_mian"<?php if($left_right){echo 'style="float: left;"';}?>>
 

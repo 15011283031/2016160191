@@ -1,3 +1,4 @@
+
 <?php get_header();?>
 <div class="full">
 
@@ -6,7 +7,7 @@
 	<?php 	   dynamic_sidebar('sidebar-widgets');  ?>	
 
          </div>
-          <div class="pagination index_p"></div>
+          <div class="pagination index_p">1111</div>
         
     </div>
     
@@ -26,3 +27,4 @@
 
 
  get_footer(); ?>
+

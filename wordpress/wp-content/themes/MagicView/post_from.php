@@ -2,7 +2,7 @@
   <div class="post_form_in">
   
      <div class="post_form_left">
-     
+    
        <?php
 	     $from_page=get_option('mytheme_from_page');
 		   ob_start(); wp_nav_menu(array( 'walker' => new header_menu(),'container' => false,'menu' => $from_page,'items_wrap' => '<div id="post_form_menu" class="post_form_ul ">%3$s</div>' ) ); ?>  
